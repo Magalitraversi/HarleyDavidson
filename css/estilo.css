@@ -172,11 +172,65 @@ color: #ff4800;
     margin: 10px;
 }
 
+.titulo1{
+    background-color: #acaaa948; 
+    font-size: 52px;
+    text-align: center;
+    animation-name: aparecer;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+
+    }
 .subtitulo {
-    color: #fff;
+    background-color: #aa6d4ea8; 
     text-align: center;
     align-items: center;
-}    
+    font-size: 42px;
+    animation-name: aparecer;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+
+    }
+    @keyframes aparecer{
+        0% {
+         opacity:0%;
+        }
+        
+        10%{
+            opacity: 10%;
+        }
+        20% {
+            opacity:20%;
+           }
+           
+           30%{
+               opacity: 30%;
+           }
+           40% {
+            opacity:40%;
+           }
+           
+           50%{
+               opacity: 50%;
+           }
+           60%{
+            opacity: 60%;
+        }
+        70% {
+            opacity:70%;
+           }
+           
+           80%{
+               opacity: 80%;
+           }
+           90% {
+            opacity:90%;
+           }
+           
+           100%{
+               opacity: 100%;
+           }
+    }
 p{  
     color: orange;
     font-size: 20px;
@@ -189,10 +243,10 @@ p{
     align-items: center;
     margin: 10px;
 }
-.videotamaño {
+ .videotamaño {
     height: auto;
     width: 100%;
-}
+} 
 .container-grilla {
     align-items: start;
     display: grid;
@@ -209,8 +263,15 @@ p{
 	text-align: center;
     padding: 10px;
     height: 600px;
+    transition: all 2s;
+    cursor: pointer;
+    }
+.container-grilla .card-grid:hover{
+    filter: none;
+    transform: rotate(360deg); 
+    transform: scale(1.1);
+    
 }
-
 .container-grilla .card-grid img{
     padding: 10px;
     object-fit: cover;
@@ -219,6 +280,8 @@ p{
 
 .container-grilla .card-grid .descripcion-grid {
     padding: 10px;
+   
+
 }
 
 .descripcion-grid h1 {
@@ -254,6 +317,15 @@ p{
 
 .carta .bloque-img img {
     max-width: 100%;
+    transition: all 2s;
+    cursor: pointer;
+}
+.carta .bloque-img img:hover { 
+    filter: none;
+    transform: rotate(360deg); 
+    transform: scale(1.3);
+    
+
 }
 
 .carta .bloque-contenido{
@@ -454,7 +526,7 @@ p{
     color: black;
     
   }
-  /* form .action {
+   form .action {
     border-radius: 10px;
     color: rgb(201, 99, 15);
     background: linear-gradient(
@@ -464,19 +536,7 @@ p{
       );
     padding: 5px;
     align-items: center;
-  }
-
-  .action:hover {
-    animation-name: background-color;
-    animation-duration: 3s;
-  }
-
-  @keyframes background-color {
-    50% {
-    background-color: #df4f0d;
-       
     }
-  } */
   
   @media (max-width: 649px){
     form .dosColumnas{
