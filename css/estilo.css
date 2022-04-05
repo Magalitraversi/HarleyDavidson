@@ -134,7 +134,7 @@ color: #ff4800;
     flex-wrap: wrap;
 } 
 
-.card{
+/* .card{
     margin: auto;
     width: 350px;
     border-radius: 20px;
@@ -142,15 +142,15 @@ color: #ff4800;
     transition: all .2s;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
     background-color: black;
-}
+} */
 .img-cover{
     position: relative;
 }
-.card img{
+/* .card img{
     width: 350px;
     height: 350px;
     object-fit: cover;
-}
+} */
 .descripcion{
     padding: 25px; 
 }
@@ -296,9 +296,16 @@ p{
     }
 }
 
+
 /* ///////////////////INDEX////////////////// */
 
 /* ///////////////////CARTA-MODELOS////////////////// */
+.color-negro {
+    color: rgb(255, 255, 255);
+font-weight: 800;
+}
+
+
 .carta{
     margin: 10px;
     padding: 20px;
@@ -354,7 +361,7 @@ p{
 }
 /* ///////////////////MODELOS////////////////// */
 
-   /* ///////////////////CATALOGO////////////////// */
+/* ///////////////////CATALOGO////////////////// */
    /* .contenedor-cartas{
     width: 80%;
     margin: 10px auto; 
@@ -362,29 +369,23 @@ p{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+*/
 .card{
-    margin: auto;
-    width: 350px;
-    overflow: hidden;
-    border-radius: 20px;
-    margin-top: 50px;
-    transition: all .2s;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
-    background-color: black;
-} */
+    background-color: #000;
+}
 .img-cover{
     position: relative;
 }
-.card img{
+/* .card img{
     width: 350px;
     height: 350px;
     object-fit: cover;
-}
+} */
 .descripcion{
     padding: 25px; 
 }
 
-.descripcion-grid h2{
+.descripcion-grid h5{
     display: inline;
     color: rgb(255, 94, 0);
 }
