@@ -25,7 +25,9 @@ body{
     padding: 0px 30px;
    
 }
-
+ul{
+    margin-bottom: 0;
+}
 .navegacion{
     position: relative;
     z-index: 5;
@@ -134,7 +136,7 @@ color: #ff4800;
     flex-wrap: wrap;
 } 
 
-.card{
+/* .card{
     margin: auto;
     width: 350px;
     border-radius: 20px;
@@ -142,15 +144,15 @@ color: #ff4800;
     transition: all .2s;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
     background-color: black;
-}
+} */
 .img-cover{
     position: relative;
 }
-.card img{
+/* .card img{
     width: 350px;
     height: 350px;
     object-fit: cover;
-}
+} */
 .descripcion{
     padding: 25px; 
 }
@@ -237,12 +239,12 @@ p{
     text-align: center;  
 }
 
-.container {
+/* .container {
     display: flex;
     justify-content: center; 
     align-items: center;
     margin: 10px;
-}
+} */
  .videotamaño {
     height: auto;
     width: 100%;
@@ -296,9 +298,19 @@ p{
     }
 }
 
+
 /* ///////////////////INDEX////////////////// */
 
 /* ///////////////////CARTA-MODELOS////////////////// */
+.color-negro {
+    color: rgb(255, 255, 255);
+font-weight: 800;
+}
+
+.parrafo-color{
+    color: #000;
+}
+
 .carta{
     margin: 10px;
     padding: 20px;
@@ -354,7 +366,7 @@ p{
 }
 /* ///////////////////MODELOS////////////////// */
 
-   /* ///////////////////CATALOGO////////////////// */
+/* ///////////////////CATALOGO////////////////// */
    /* .contenedor-cartas{
     width: 80%;
     margin: 10px auto; 
@@ -362,29 +374,34 @@ p{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+*/
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
+
 .card{
-    margin: auto;
-    width: 350px;
-    overflow: hidden;
-    border-radius: 20px;
-    margin-top: 50px;
-    transition: all .2s;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
-    background-color: black;
-} */
+    background-color: #000;
+}
+
+.card img{
+    height: 400px;
+}
+
+
 .img-cover{
     position: relative;
 }
-.card img{
+/* .card img{
     width: 350px;
     height: 350px;
     object-fit: cover;
-}
+} */
 .descripcion{
     padding: 25px; 
 }
 
-.descripcion-grid h2{
+.descripcion-grid h5{
     display: inline;
     color: rgb(255, 94, 0);
 }
@@ -528,15 +545,13 @@ p{
   }
    form .action {
     border-radius: 10px;
-    color: rgb(201, 99, 15);
-    background: linear-gradient(
-        35deg,
-        #f5f2f0ef,
-        #df4406f8
-      );
-    padding: 5px;
     align-items: center;
-    }
+}
+
+form .action .btn-contacto:hover{
+    color: #000;
+    background-color: #fff;
+}
   
   @media (max-width: 649px){
     form .dosColumnas{
@@ -554,6 +569,23 @@ p{
       width: 100%;
     }
   }
+
+  .accordion-button {
+    color: #ffffff;
+    background-color: #000;
+
+}
+
+.accordion-item {
+    background-color: #000;
+    color: #ffffff;
+}
+
+.accordion-button:not(.collapsed) {
+    color: rgb(255 59 0);
+    background-color: rgb(0 0 0);
+    box-shadow: rgb(0 0 0 / 13%) 0px -1px 0px inset;
+}
   /* ///////////////////CONTACTO////////////////// */
 
    /* ///////////////////CARTA HISTORIA////////////////// */

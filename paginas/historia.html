@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
         integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -39,30 +46,23 @@
 
     <div class="cartahistoria">
         <div class="historia">
-            <img class="bloquephoto" src="../img/modelo1harl50.webp"alt="">
-            <div class="bloque_desarrollo">
+            <img class="bloquephoto" src="../img/modelo1harl50.webp" alt="">
+            <div class="bloque_desarrollo text-center">
                 <h2>Single model (1903 – 1905 monocilíndrico)</h2>
                 <p> La motocicleta era básicamente un cuadro de bicicleta equipado con un motor monocilíndrico de cuatro
                     tiempos, con
-                    transmisión por correa directa a la rueda trasera.
+                    transmisión por correa directa a la rueda trasera...
 
-                    El desplazamiento era de 10.2 pulgadas cúbicas (167cc), con un diámetro y carrera de 2.12 x 2.87
-                    pulgadas (54 x
-                    73 mm), produciendo cerca de 2 caballos de potencia. Esto era un impulso suficiente para mantener a
-                    la moto y al
-                    piloto rodando por terreno llano, pero no lo suficiente como para subir una pendiente significativa,
-                    por lo que
-                    el motociclista tendría que pedalear cuesta arriba. Sin embargo, el motor producía la suficiente
-                    potencia y
-                    tenía un gran peso que evidenciaban las deficiencias del chasis de la motocicleta.</p>
+                </p>
+                <button type="button" class="btn btn-dark text-center" data-bs-toggle="modal" data-bs-target="#singlemodel">
+                    Ver mas
+                </button>
             </div>
         </div>
 
-
-
         <div class="historia">
-            <img class="bloquephoto" src="../img/segundomodelooooooo.jpg"  alt="">
-            <div class="bloque_desarrollo">
+            <img class="bloquephoto" src="../img/segundomodelooooooo.jpg" alt="">
+            <div class="bloque_desarrollo text-center">
                 <h2>Single model (1906 – 1907 monocilíndrico)</h2>
                 <p> 1906, la Harley-Davidson Motor Company se encontraba en plena fase de crecimiento. La producción
                     aumentó a 50
@@ -73,41 +73,90 @@
                     Con esta nueva pintura llegó un nuevo apodo y un eslogan publicitario para la motocicleta
                     Harley-Davidson: «The
                     Silent Grey Fellow«. (el fiable y silencioso amigo gris).</p>
-                </div>
-                </div>
-                <div class="historia">
-                    <img class="bloquephoto" src="../img/modelo4.jpg"  alt="">
-                    <div class="bloque_desarrollo">
-                        <h2> Model 4 (1908 – monocilíndrico)</h2>
-                        <p> Harley de dos cilindros no apareció hasta 1909. Pero de alguna manera, un tipo llamado
-                            Harvey Bernard
-                            consiguió un motor en 1908 y lo instaló en un chasis de un modelo monocilíndrico.
-                            En este momento también comienza el primer sistema de numeración de Milwaukee para las
-                            motocicletas. Usando
-                            1904
-                            como el año base de producción, usando la designación 0. 1908 fue catalogado como modelo #4.
-                            Por lo tanto, a
-                            partir de 1909, el número 5 precede a la designación del modelo. La fábrica se refiere a las
-                            máquinas
-                            1903-08
-                            como 19xx – Singles (monocilíndricos).
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#singlemodel2">
+                    Ver mas
+                </button>
+            </div>
+        </div>
+        <div class="historia">
+            <img class="bloquephoto" src="../img/modelo4.jpg" alt="">
+            <div class="bloque_desarrollo text-center">
+                <h2> Model 4 (1908 – monocilíndrico)</h2>
+                <p> Harley de dos cilindros no apareció hasta 1909. Pero de alguna manera, un tipo llamado
+                    Harvey Bernard
+                    consiguió un motor en 1908 y lo instaló en un chasis de un modelo monocilíndrico.
+                    En este momento también comienza el primer sistema de numeración de Milwaukee para las
+                    motocicletas. Usando
+                    1904
+                    como el año base de producción, usando la designación 0. 1908 fue catalogado como modelo #4.
+                    Por lo tanto, a
+                    partir de 1909, el número 5 precede a la designación del modelo. La fábrica se refiere a las
+                    máquinas
+                    1903-08
+                    como 19xx – Singles (monocilíndricos).
 
-                            La nueva fabrica, construida con ladrillos, estaba creciendo constantemente. La producción
-                            se triplicó en
-                            1908,
-                            con 450 motocicletas fabricadas. Las innovaciones técnicas incluyeron tapas de acero
-                            graduadas para el
-                            vástago
-                            de la válvula de escape para facilitar su ajuste.
+                    La nueva fabrica, construida con ladrillos, estaba creciendo constantemente. La producción
+                    se triplicó en
+                    1908,
+                    con 450 motocicletas fabricadas. Las innovaciones técnicas incluyeron tapas de acero
+                    graduadas para el
+                    vástago
+                    de la válvula de escape para facilitar su ajuste.
 
-                            El conjunto de la horquilla delantera era más robusto, los guardabarros más grandes y los
-                            neumáticos habían
-                            crecido un cuarto de pulgada (0 6 cm) más.</p>
-                    </div>
-                </div>
+                    </p>
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#singlemodel3">
+                    Ver mas
+                </button>
             </div>
         </div>
     </div>
+
+    <!-- Modales -->
+
+    <div class="modal fade" id="singlemodel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Single model (1903 – 1905 monocilíndrico)</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="parrafo-color">El desplazamiento era de 10.2 pulgadas cúbicas (167cc), con un diámetro y carrera de 2.12 x 2.87 pulgadas (54 x 73 mm), produciendo cerca de 2 caballos de potencia. Esto era un impulso suficiente para mantener a la moto y al piloto rodando por terreno llano, pero no lo suficiente como para subir una pendiente significativa, por lo que el motociclista tendría que pedalear cuesta arriba. Sin embargo, el motor producía la suficiente potencia y tenía un gran peso que evidenciaban las deficiencias del chasis de la motocicleta.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="singlemodel2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Single model (1906 – 1907 monocilíndrico)</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="parrafo-color">La nueva horquilla delantera de doble muelle ayudó a suavizar la conducción en las carreteras en mal estado. Se absorbían gran parte de las vibraciones que, hasta entonces, había sufrido el motociclista.
+
+                    Además de una mejora en la conducción se aumentó la potencia del motor. Se subió la cilindrada a 26,8 pulgadas cúbicas (440 cc) con lo que se podía conseguir una  velocidad máxima de 45 mph (72 km h).</p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="singlemodel3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Model 4 (1908 – monocilíndrico)</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="parrafo-color">El conjunto de la horquilla delantera era más robusto, los guardabarros más grandes y los neumáticos habían crecido un cuarto de pulgada (0 6 cm) más. El precio no había cambiado permaneciendo en los 210 dólares.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+
     <footer>
         <div class="contenedor-footer">
             <div class="contenedor-copyright">
