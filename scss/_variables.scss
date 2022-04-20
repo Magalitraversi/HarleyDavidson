@@ -1,0 +1,48 @@
+$color-fondo-historia: black;
+$color-white: white;
+$color-box: 0 5px 15px rgba(0, 0, 0, .5);
+
+//MAP-GET//
+
+$historia:(
+    margen: 10px,
+    espacio_interno: 20px,
+    tamaño_caja: border-box,
+    fondo: $color-fondo-historia,
+    radio_borde: 4px,
+    color-letras: $color-white,
+    sombra:  $color-box,
+);
+
+//// EXTEND ////
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2 {
+    @extend .myButton;
+    color: rgb(255, 44, 7);
+
+}

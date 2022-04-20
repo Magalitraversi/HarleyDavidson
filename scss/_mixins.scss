@@ -1,0 +1,9 @@
+@mixin accordion-button {
+    color: #ffffff;
+    background-color: #000;
+}
+
+@mixin accordion-item {
+    background-color: #000;
+    color: #ffffff;
+}
