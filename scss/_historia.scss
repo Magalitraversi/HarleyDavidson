@@ -1,0 +1,44 @@
+@import "_variables.scss";
+
+$color-h2: #ff4800;
+$color-p: white;
+
+.cartahistoria {
+    margin: map-get($historia,margen);
+    padding: map-get($historia,espacio_interno);
+    box-sizing: map-get($historia,tamaño_caja);
+    background: map-get($historia,fondo);
+    border-radius: map-get($historia,radio_borde);
+    color: map-get($historia,color-letras);
+    box-shadow: map-get($historia,sombra);
+    
+}
+
+.bloquephoto {
+ width: 100%;
+ img {
+    max-width: 100%;
+    position: relative;
+
+}
+}
+
+.bloque_desarrollo{
+    padding: 20px;
+    margin-bottom: 10px ;
+    
+h2{
+    margin-top: 8px;
+    padding-left: 0;
+    color: $color-h2;
+    text-align: center;
+    
+}
+p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+    color: $color-p;
+    font-size: 20px;
+}
+}
