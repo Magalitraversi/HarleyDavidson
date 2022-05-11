@@ -1,0 +1,66 @@
+$color-rgb-white:rgb(255, 255, 255);
+$color-fondo-black: rgb(0, 0, 0);
+$color-titulo-orange:  #ff4800;
+.color-negro {
+color: $color-rgb-white;
+ 
+font-weight: 800;
+}
+
+.parrafo-color{
+    color: #000;
+}
+
+.carta{
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: $color-fondo-black;
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    display: flex;
+
+.bloque-img{
+
+    width: 900px;
+    img {
+        max-width: 100%;
+        transition: all 2s;
+        cursor: pointer;
+    }
+}
+
+}
+
+.carta .bloque-img img:hover { 
+    filter: none;
+    transform: rotate(360deg); 
+    transform: scale(1.3);
+    
+
+}
+
+.carta .bloque-contenido{
+    padding-left: 20px;
+
+ h2{
+    margin: 0;
+    padding-left: 0;
+    color: $color-titulo-orange;
+}
+ p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+
+}
+}
+@media (max-width: 480px)  {
+.contenedor-card .carta{
+    flex-direction: column;
+}
+.carta .bloque-img {
+    width: 100%;
+}
+}

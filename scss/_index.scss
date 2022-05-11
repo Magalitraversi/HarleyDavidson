@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Teko:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import "_variables.scss";
 
 $fondo-color:rgba(0, 0, 0, .5);
 $navegacion-color: #1b1b1b;
@@ -285,7 +286,9 @@ p{
 }
 
 
-   
+
+
+
 /* ///////////////////FOOTER////////////////// */
 
 footer{
@@ -315,10 +318,3 @@ footer{
 }
 
 /* ///////////////////FOOTER////////////////// */
-
-@import "_index.scss";
-@import "_contacto.scss";
-@import "_catalogo.scss";
-@import "_modelos.scss";
-@import "_historia.scss";
-
